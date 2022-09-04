@@ -19,8 +19,8 @@ const puppeteer = require('puppeteer');
   });
 
   //await page.goto('https://www.bannerbear.com/solutions/automate-your-marketing/');
-  //await page.goto('https://www.growpital.com', {timeout: 0});
-    await page.goto('https://unsplash.com/s/photos/the-source')
+  await page.goto('https://www.growpital.com', {timeout: 0});
+    //await page.goto('https://unsplash.com/s/photos/the-source')
 
   await browser.close();
 })();
